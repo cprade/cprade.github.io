@@ -1,0 +1,50 @@
+li {
+    color: rgb(121, 12, 48);
+}
+
+h2 {
+    color: rgb(53, 5, 50);
+}
+
+.center {
+    text-align: center;
+    border: 2px solid;
+    padding: 2px;
+    border-color: rgb(51, 18, 82);
+}
+
+body {
+    background: linear-gradient(#d1bcaa, rgb(235, 231, 228));
+    font-family: "Sunny April";
+    font-size: large;
+}
+
+.background {
+    background: url('2.jpg') repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+@font-face {
+    font-family: "Sunny April";
+    src: url("euphorigenic.ttf");
+}
+
+.informations {
+    text-align: right;
+    display: flex;
+    position: absolute;
+    right: 1em;
+    top: 0;
+    flex-direction: column;
+}
+
+.img {
+    border-radius: 20%;
+    box-shadow: 20px 20px 60px #b2a091, -20px -20px 60px #f0d8c4;
+}
