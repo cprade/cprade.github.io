@@ -48,3 +48,33 @@ body {
     border-radius: 20%;
     box-shadow: 20px 20px 60px #b2a091, -20px -20px 60px #f0d8c4;
 }
+
+.liseret {
+    margin-right: 3%;
+    width: 5%;
+    height: 950px;
+    background: url(Brown-Aesthetic-Wallpaper-3-715x1327.png);
+    border-radius: 10px;
+}
+
+.liseret,
+.contenu {
+    display: inline-block;
+    vertical-align: top;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+}
+
+.sections {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+li {
+    text-align: left;
+}
