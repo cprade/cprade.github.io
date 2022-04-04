@@ -78,3 +78,20 @@ section {
 li {
     text-align: left;
 }
+
+@media screen and (max-width: 1280px) {
+    .liseret {
+        display: none;
+    }
+    .sections {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    section {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+    }
+}

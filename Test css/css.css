@@ -25,3 +25,26 @@ a:hover {
     text-decoration: underline;
     color: rgb(66, 9, 141);
 }
+
+td,
+th {
+    border: 2px dotted rgb(80, 30, 80);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: rgb(70, 70, 136);
+    background-color: rgb(219, 160, 157);
+}
+
+caption {
+    caption-side: bottom;
+}
+
+textarea {
+    width: 100px;
+    height: 100px;
+}
